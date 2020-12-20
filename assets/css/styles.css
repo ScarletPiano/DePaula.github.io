@@ -1,19 +1,9 @@
-h1 { /* top heading */
-    color: #FFDFC1;
-    font-family: verdana;
-    font-size: 200%;
-    padding-bottom: 20px;
-    padding-top: 0px;
-    background-color: black;
-    background-position: top;
-}
 p {
     font-family: sans-serif;
     color: #FFDFC1;
-    font-size: 150%;
 }
 html{
-    background: linear-gradient(to bottom, #e56b6f 0%, #6d597a 100%);
+    background: linear-gradient(to bottom, red 0%, black 100%);
 }
 .profile{ /* profile picture box */
     align-content: center;
@@ -23,7 +13,7 @@ html{
 .bio { /* smaller text/ centered under profile */
     text-align: center;
     font-family: sans-serif;
-    font-size: 70%;
+    font-size: .8em;
 }
 .center { /* class for centering things */
     text-align: center;
@@ -31,46 +21,12 @@ html{
     float: none;
 }
 
-/* hidden/ reveal boxes at the bottom of the page*/
-div.hidden { /* hide stuff until hovering over them */
-    border-style: solid;
-    border-color:black;
-    display: none; 
-    background-color: #B56576;
-} 
-a.box {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-a.box:hover + div.hidden { /* when hovering, reveal */
-    display: inline-block;
-    font-size: 20px; 
-}
-a.box:hover { /* hide original image */
-    display: none;
-}
-#box1 { /* exercises box */
-    padding: 10px;
-}
-#box2 { /* project boxes */
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#box3 { /* project boxes */
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 /* link colors & style */
 a:link{
-    color: black;
+    color: white;
 }
 a:visited{
-    color:#FFDFC1;
+    color: whitesmoke;
 }
 a:hover{
     color:cornsilk;
