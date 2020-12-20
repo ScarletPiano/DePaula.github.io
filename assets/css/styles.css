@@ -2,8 +2,11 @@ p {
     font-family: sans-serif;
     color: #FFDFC1;
 }
+.page{
+    background-color: ghostwhite;
+}
 html{
-    background: linear-gradient(to bottom, red 0%, black 100%);
+    background: black;
 }
 .profile{ /* profile picture box */
     align-content: center;
@@ -23,15 +26,15 @@ html{
 
 /* link colors & style */
 a:link{
-    color: white;
+    color: lightcoral;
 }
 a:visited{
-    color: whitesmoke;
+    color: grey;
 }
 a:hover{
-    color:cornsilk;
+    color:black;
     text-decoration-line:underline;
 }
 a:active{
-    color:#6d597a;
+    color:lightcoral;
 }
